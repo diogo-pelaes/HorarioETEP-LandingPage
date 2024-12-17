@@ -1,0 +1,286 @@
+/* Navbar e Links */
+.nav-link {
+    color: #fd7e14 !important;
+}
+
+.nav-link.active {
+    color: #fff !important;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+}
+
+.btn-primary:hover {
+    background-color: #dc6a10;
+    border-color: #dc6a10;
+}
+
+.btn-secondary {
+    background-color: #495057;
+    border-color: #495057;
+}
+
+.btn-secondary:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+/* Layout */
+.navbar {
+    height: 56px;
+    flex: 0 0 auto;
+}
+
+main {
+    padding-top: 56px;
+    flex: 1 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+/* Tabela */
+table {
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+}
+
+td {
+    transition: all 0.2s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    min-width: 120px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    background-clip: padding-box;
+}
+
+.border-double {
+    border-bottom: 3px double #ccc;
+}
+
+/* Disciplinas Container */
+.disciplinas-container {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.disciplinas-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.disciplinas-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.disciplinas-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.disciplinas-container.drag-over {
+    background-color: rgba(253, 126, 20, 0.1);
+    border-radius: 5px;
+}
+
+/* Cards */
+.card {
+    transition: all 0.2s ease;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-radius: 0;
+    background-clip: padding-box;
+}
+
+.card:active {
+    cursor: grabbing;
+}
+
+.card:hover {
+    transform: translateX(5px);
+}
+
+/* Drag and Drop */
+.dragging {
+    opacity: 0.5 !important;
+    transform: scale(0.95);
+}
+
+.drag-over {
+    background-color: rgba(253, 126, 20, 0.1) !important;
+    outline: 2px dashed #fd7e14 !important;
+    outline-offset: -2px;
+}
+
+.no-drop {
+    background-color: #343a40 !important;
+    cursor: not-allowed !important;
+}
+
+/* Contador de Aulas */
+.aula-count {
+    background-color: #2b3035;
+    border: 1px solid #495057;
+    color: #fff;
+    text-align: center;
+    -moz-appearance: textfield;
+    width: 45px !important;
+    margin-right: 8px;
+}
+
+.aula-count:focus {
+    background-color: #2b3035;
+    border-color: #fd7e14;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Remove as setas do input number */
+.aula-count::-webkit-inner-spin-button,
+.aula-count::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Título do Horário */
+.titulo-horario {
+    background-color: #212529;
+    color: #fff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+/* Também vou adicionar para garantir que não herde arredondamento */
+.card.py-1.px-2 {
+    border-radius: 0;
+}
+
+.contador-label {
+    min-width: 25px;
+    text-align: right;
+}
+
+/* Quando o card estiver inativo */
+.card[style*="opacity: 0.5"] {
+    cursor: not-allowed;
+}
+
+/* Links de Download/Upload */
+.navbar .nav-link {
+    color: #fff !important;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.navbar .nav-link:hover {
+    opacity: 1;
+}
+
+.navbar .material-symbols-outlined {
+    font-size: 20px;
+}
+
+/* Checkbox de disciplinas */
+.form-check {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.form-check-input {
+    margin: 0;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+}
+
+/* Linha de contadores */
+.contadores-row {
+    border-top: 2px solid #fd7e14;
+}
+
+.contadores-row td, 
+.contadores-row th {
+    padding: 8px 4px;
+    font-size: 0.9em;
+    background-color: rgba(253, 126, 20, 0.1);
+}
+
+/* Ajustar layout dos elementos do card */
+.disciplinas-container .d-flex {
+    position: relative;
+    padding-right: 25px; /* Espaço para o checkbox */
+}
+
+/* Estilo para células com duplicatas */
+td[style*="border: 2px solid #dc3545"] {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(220, 53, 69, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(220, 53, 69, 0);
+    }
+}
+
+/* Estilo para linhas com duplicatas */
+.linha-duplicada {
+    background-color: rgba(220, 53, 69, 0.1) !important;
+    position: relative;
+}
+
+.linha-duplicada::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 2px solid #dc3545;
+    pointer-events: none;
+}
+
+.linha-duplicada td, 
+.linha-duplicada th {
+    color: #dc3545 !important;
+}
