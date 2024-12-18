@@ -1,0 +1,567 @@
+{
+  "titulo": "2025",
+  "disciplinas": [
+    {
+      "nome": "Artes",
+      "cor": "rgb(74, 144, 226)",
+      "maximo": "6",
+      "atual": "6"
+    },
+    {
+      "nome": "Artes",
+      "cor": "rgb(74, 144, 226)",
+      "maximo": "6",
+      "atual": "6"
+    },
+    {
+      "nome": "Biologia",
+      "cor": "rgb(80, 200, 120)",
+      "maximo": "21",
+      "atual": "6"
+    },
+    {
+      "nome": "Ed.Física",
+      "cor": "rgb(243, 156, 18)",
+      "maximo": "14",
+      "atual": "4"
+    },
+    {
+      "nome": "Filosofia",
+      "cor": "rgb(142, 68, 173)",
+      "maximo": "11",
+      "atual": "0"
+    },
+    {
+      "nome": "Física",
+      "cor": "rgb(231, 76, 60)",
+      "maximo": "21",
+      "atual": "21"
+    },
+    {
+      "nome": "Geografia",
+      "cor": "rgb(39, 174, 96)",
+      "maximo": "15",
+      "atual": "6"
+    },
+    {
+      "nome": "Geo-Tiago",
+      "cor": "rgb(22, 160, 133)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "História",
+      "cor": "rgb(211, 84, 0)",
+      "maximo": "21",
+      "atual": "7"
+    },
+    {
+      "nome": "Inglês",
+      "cor": "rgb(41, 128, 185)",
+      "maximo": "14",
+      "atual": "0"
+    },
+    {
+      "nome": "Matemática",
+      "cor": "rgb(192, 57, 43)",
+      "maximo": "30",
+      "atual": "18"
+    },
+    {
+      "nome": "Português",
+      "cor": "rgb(142, 68, 173)",
+      "maximo": "30",
+      "atual": "0"
+    },
+    {
+      "nome": "Química",
+      "cor": "rgb(44, 62, 80)",
+      "maximo": "14",
+      "atual": "0"
+    },
+    {
+      "nome": "Sociologia",
+      "cor": "rgb(127, 140, 141)",
+      "maximo": "7",
+      "atual": "0"
+    },
+    {
+      "nome": "SSA-Roberto",
+      "cor": "rgb(26, 188, 156)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "AQM-Eleandro",
+      "cor": "rgb(52, 152, 219)",
+      "maximo": "12",
+      "atual": "0"
+    },
+    {
+      "nome": "QO-Edmar",
+      "cor": "rgb(230, 126, 34)",
+      "maximo": "4",
+      "atual": "0"
+    },
+    {
+      "nome": "QO-André",
+      "cor": "rgb(155, 89, 182)",
+      "maximo": "10",
+      "atual": "0"
+    },
+    {
+      "nome": "QI-André",
+      "cor": "rgb(52, 73, 94)",
+      "maximo": "8",
+      "atual": "0"
+    },
+    {
+      "nome": "QI-Ana",
+      "cor": "rgb(22, 160, 133)",
+      "maximo": "4",
+      "atual": "0"
+    },
+    {
+      "nome": "QE-Edna",
+      "cor": "rgb(39, 174, 96)",
+      "maximo": "9",
+      "atual": "0"
+    },
+    {
+      "nome": "MEP-Zete",
+      "cor": "rgb(41, 128, 185)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)",
+      "maximo": "6",
+      "atual": "6"
+    },
+    {
+      "nome": "TPQI-Eleandro",
+      "cor": "rgb(192, 57, 43)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "FQ-Roberto",
+      "cor": "rgb(211, 84, 0)",
+      "maximo": "14",
+      "atual": "2"
+    },
+    {
+      "nome": "OU-Zete",
+      "cor": "rgb(127, 140, 141)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "GQ-Ana",
+      "cor": "rgb(22, 160, 133)",
+      "maximo": "4",
+      "atual": "0"
+    },
+    {
+      "nome": "AI-Walcyr",
+      "cor": "rgb(44, 62, 80)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "COR-Eleandro",
+      "cor": "rgb(231, 76, 60)",
+      "maximo": "2",
+      "atual": "0"
+    },
+    {
+      "nome": "COR-Edmar",
+      "cor": "rgb(243, 156, 18)",
+      "maximo": "2",
+      "atual": "0"
+    }
+  ],
+  "horarios": [
+    {
+      "posicao": 0,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 1,
+      "disciplina": "Geografia",
+      "cor": "rgb(39, 174, 96)"
+    },
+    {
+      "posicao": 2,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 3,
+      "disciplina": "Ed.Física",
+      "cor": "rgb(243, 156, 18)"
+    },
+    {
+      "posicao": 4,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 5,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 6,
+      "disciplina": "Biologia",
+      "cor": "rgb(80, 200, 120)"
+    },
+    {
+      "posicao": 7,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 8,
+      "disciplina": "Geografia",
+      "cor": "rgb(39, 174, 96)"
+    },
+    {
+      "posicao": 9,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 10,
+      "disciplina": "Ed.Física",
+      "cor": "rgb(243, 156, 18)"
+    },
+    {
+      "posicao": 11,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 12,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 13,
+      "disciplina": "Biologia",
+      "cor": "rgb(80, 200, 120)"
+    },
+    {
+      "posicao": 14,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 15,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 16,
+      "disciplina": "Geografia",
+      "cor": "rgb(39, 174, 96)"
+    },
+    {
+      "posicao": 17,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 18,
+      "disciplina": "Ed.Física",
+      "cor": "rgb(243, 156, 18)"
+    },
+    {
+      "posicao": 19,
+      "disciplina": "Biologia",
+      "cor": "rgb(80, 200, 120)"
+    },
+    {
+      "posicao": 20,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 21,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 22,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 23,
+      "disciplina": "Geografia",
+      "cor": "rgb(39, 174, 96)"
+    },
+    {
+      "posicao": 24,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 25,
+      "disciplina": "Ed.Física",
+      "cor": "rgb(243, 156, 18)"
+    },
+    {
+      "posicao": 26,
+      "disciplina": "Biologia",
+      "cor": "rgb(80, 200, 120)"
+    },
+    {
+      "posicao": 27,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 28,
+      "disciplina": "Geografia",
+      "cor": "rgb(39, 174, 96)"
+    },
+    {
+      "posicao": 29,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 30,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 31,
+      "disciplina": "Biologia",
+      "cor": "rgb(80, 200, 120)"
+    },
+    {
+      "posicao": 32,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 33,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 34,
+      "disciplina": "FQ-Roberto",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 35,
+      "disciplina": "Geografia",
+      "cor": "rgb(39, 174, 96)"
+    },
+    {
+      "posicao": 36,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 37,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 38,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 39,
+      "disciplina": "Biologia",
+      "cor": "rgb(80, 200, 120)"
+    },
+    {
+      "posicao": 40,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 41,
+      "disciplina": "FQ-Roberto",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 77,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 80,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 84,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 87,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 95,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 97,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 102,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 103,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 107,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 110,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 114,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 117,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 155,
+      "disciplina": "Artes",
+      "cor": "rgb(74, 144, 226)"
+    },
+    {
+      "posicao": 157,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 160,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 162,
+      "disciplina": "Artes",
+      "cor": "rgb(74, 144, 226)"
+    },
+    {
+      "posicao": 164,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 167,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 168,
+      "disciplina": "Artes",
+      "cor": "rgb(74, 144, 226)"
+    },
+    {
+      "posicao": 169,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 170,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 173,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 175,
+      "disciplina": "Artes",
+      "cor": "rgb(74, 144, 226)"
+    },
+    {
+      "posicao": 177,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 180,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 184,
+      "disciplina": "Artes",
+      "cor": "rgb(74, 144, 226)"
+    },
+    {
+      "posicao": 185,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 186,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 191,
+      "disciplina": "Artes",
+      "cor": "rgb(74, 144, 226)"
+    },
+    {
+      "posicao": 192,
+      "disciplina": "Matemática",
+      "cor": "rgb(192, 57, 43)"
+    },
+    {
+      "posicao": 193,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 197,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 204,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    },
+    {
+      "posicao": 210,
+      "disciplina": "Física",
+      "cor": "rgb(231, 76, 60)"
+    }
+  ]
+}

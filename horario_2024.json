@@ -1,0 +1,227 @@
+{
+  "titulo": "2024",
+  "disciplinas": [
+    {
+      "nome": "Artes",
+      "cor": "rgb(74, 144, 226)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "Artes",
+      "cor": "rgb(74, 144, 226)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "Biologia",
+      "cor": "rgb(80, 200, 120)",
+      "maximo": "21",
+      "atual": "0"
+    },
+    {
+      "nome": "Ed.Física",
+      "cor": "rgb(243, 156, 18)",
+      "maximo": "14",
+      "atual": "0"
+    },
+    {
+      "nome": "Filosofia",
+      "cor": "rgb(142, 68, 173)",
+      "maximo": "11",
+      "atual": "0"
+    },
+    {
+      "nome": "Física",
+      "cor": "rgb(231, 76, 60)",
+      "maximo": "21",
+      "atual": "0"
+    },
+    {
+      "nome": "Geografia",
+      "cor": "rgb(39, 174, 96)",
+      "maximo": "15",
+      "atual": "0"
+    },
+    {
+      "nome": "Geo-Tiago",
+      "cor": "rgb(22, 160, 133)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "História",
+      "cor": "rgb(211, 84, 0)",
+      "maximo": "21",
+      "atual": "1"
+    },
+    {
+      "nome": "Inglês",
+      "cor": "rgb(41, 128, 185)",
+      "maximo": "14",
+      "atual": "0"
+    },
+    {
+      "nome": "Matemática",
+      "cor": "rgb(192, 57, 43)",
+      "maximo": "30",
+      "atual": "0"
+    },
+    {
+      "nome": "Português",
+      "cor": "rgb(142, 68, 173)",
+      "maximo": "30",
+      "atual": "1"
+    },
+    {
+      "nome": "Química",
+      "cor": "rgb(44, 62, 80)",
+      "maximo": "14",
+      "atual": "0"
+    },
+    {
+      "nome": "Sociologia",
+      "cor": "rgb(127, 140, 141)",
+      "maximo": "7",
+      "atual": "0"
+    },
+    {
+      "nome": "SSA-Roberto",
+      "cor": "rgb(26, 188, 156)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "AQM-Eleandro",
+      "cor": "rgb(52, 152, 219)",
+      "maximo": "12",
+      "atual": "0"
+    },
+    {
+      "nome": "QO-Edmar",
+      "cor": "rgb(230, 126, 34)",
+      "maximo": "4",
+      "atual": "0"
+    },
+    {
+      "nome": "QO-André",
+      "cor": "rgb(155, 89, 182)",
+      "maximo": "10",
+      "atual": "0"
+    },
+    {
+      "nome": "QI-André",
+      "cor": "rgb(52, 73, 94)",
+      "maximo": "8",
+      "atual": "0"
+    },
+    {
+      "nome": "QI-Ana",
+      "cor": "rgb(22, 160, 133)",
+      "maximo": "4",
+      "atual": "0"
+    },
+    {
+      "nome": "QE-Edna",
+      "cor": "rgb(39, 174, 96)",
+      "maximo": "9",
+      "atual": "0"
+    },
+    {
+      "nome": "MEP-Zete",
+      "cor": "rgb(41, 128, 185)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)",
+      "maximo": "6",
+      "atual": "6"
+    },
+    {
+      "nome": "TPQI-Eleandro",
+      "cor": "rgb(192, 57, 43)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "FQ-Roberto",
+      "cor": "rgb(211, 84, 0)",
+      "maximo": "14",
+      "atual": "0"
+    },
+    {
+      "nome": "OU-Zete",
+      "cor": "rgb(127, 140, 141)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "GQ-Ana",
+      "cor": "rgb(22, 160, 133)",
+      "maximo": "4",
+      "atual": "0"
+    },
+    {
+      "nome": "AI-Walcyr",
+      "cor": "rgb(44, 62, 80)",
+      "maximo": "6",
+      "atual": "0"
+    },
+    {
+      "nome": "COR-Eleandro",
+      "cor": "rgb(231, 76, 60)",
+      "maximo": "2",
+      "atual": "0"
+    },
+    {
+      "nome": "COR-Edmar",
+      "cor": "rgb(243, 156, 18)",
+      "maximo": "2",
+      "atual": "0"
+    }
+  ],
+  "horarios": [
+    {
+      "posicao": 0,
+      "disciplina": "Português",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 2,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 7,
+      "disciplina": "História",
+      "cor": "rgb(211, 84, 0)"
+    },
+    {
+      "posicao": 9,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 14,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 21,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 29,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    },
+    {
+      "posicao": 36,
+      "disciplina": "TPQI-Zete",
+      "cor": "rgb(142, 68, 173)"
+    }
+  ]
+}

@@ -284,3 +284,52 @@ td[style*="border: 2px solid #dc3545"] {
 .linha-duplicada th {
     font-weight: bold !important;
 }
+
+/* Classes de cores para os cards */
+.card-azul {
+    background-color: #4a90e2;
+}
+
+.card-verde {
+    background-color: #50c878;
+}
+
+.card-laranja {
+    background-color: #f39c12;
+}
+
+.card-roxo {
+    background-color: #8e44ad;
+}
+
+.card-vermelho {
+    background-color: #e74c3c;
+}
+
+.card-verde-escuro {
+    background-color: #27ae60;
+}
+
+.card-verde-agua {
+    background-color: #16a085;
+}
+
+.card-laranja-escuro {
+    background-color: #d35400;
+}
+
+.card-azul-escuro {
+    background-color: #2980b9;
+}
+
+.card-vermelho-escuro {
+    background-color: #c0392b;
+}
+
+.card-cinza {
+    background-color: #2c3e50;
+}
+
+.card-cinza-claro {
+    background-color: #7f8c8d;
+}
