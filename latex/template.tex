@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{fontspec}
+\usepackage[table]{xcolor}
+\usepackage[paperwidth=210mm, paperheight=130mm, left=0.5cm, right=0.5cm, top=1cm, bottom=0.5cm]{geometry}
+\pagestyle{empty}
+
+\setmainfont{Roboto}
+
+\renewcommand{\arraystretch}{1.5}
+
+\definecolor{lightgray}{gray}{0.9}
+
+\begin{document}
+
+\begin{center}
+    \large \textbf{Horário - {{ professor.name }}}
+\end{center}
+
+\begin{table}[h]
+    \centering
+    \rowcolors{2}{lightgray}{}
+    \begin{tabular}{|c|c|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|}
+        \hline
+        \textbf{Aula} & \textbf{Horário} & \textbf{Seg} & \textbf{Ter} & \textbf{Qua} & \textbf{Qui} & \textbf{Sex} \\ \hline
+        {% for aula in professor.aulas %}
+        {% if loop.index != 1 and aula.horario == '13:15 às 14:05'%}
+        \multicolumn{7}{|c|}{\textbf{Almoço}} \\ \hline
+        {% endif %}
+        {{ loop.index }} & {{ aula.horario }} & {{ aula.seg }} & {{ aula.ter }} & {{ aula.qua }} & {{ aula.qui }} & {{ aula.sex }} \\ \hline
+        {% endfor %}
+    \end{tabular}
+
+\end{table}
+
+\end{document}
